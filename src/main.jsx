@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { HooksApp } from './HooksApp'
+import { Counter } from './01-useState/Counter'
+// import { HooksApp } from './HooksApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HooksApp />
+    {/* <HooksApp /> */}
+    <Counter />
   </React.StrictMode>,
 )
