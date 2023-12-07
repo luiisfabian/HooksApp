@@ -6,10 +6,10 @@ export const LoginPage = () => {
   const {user, setUser} = useContext(UserContext);
   return (
     <>
-    <h1>Login Page <small>{user?.name}</small></h1>
+    <h1>Login Page<small>{user?.name}</small></h1>
     <hr />
 
-    <pre >
+    <pre  aria-label='pre'>
       {
         JSON.stringify(user, null, 3)
       }
